@@ -1,0 +1,19 @@
+﻿  SampleCGB.cpp
+  amcap.cpp
+d:\desktop\directshow\samples\c++\directshow\capture\amcap\amcap.cpp(2699): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(205): note: 参见“wcsncpy”的声明
+d:\desktop\directshow\samples\c++\directshow\capture\amcap\amcap.cpp(2700): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(205): note: 参见“wcsncpy”的声明
+d:\desktop\directshow\samples\c++\directshow\capture\amcap\amcap.cpp(4422): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(205): note: 参见“wcsncpy”的声明
+  crossbar.cpp
+  status.cpp
+  stdafx.cpp
+  正在生成代码...
+strmbasd.lib(wxdebug.obj) : warning LNK4217: 本地定义的符号 __vsnwprintf 在函数 "long __stdcall StringVPrintfWorkerW(wchar_t *,unsigned int,unsigned int *,wchar_t const *,char *)" (?StringVPrintfWorkerW@@YGJPA_WIPAIPB_WPAD@Z) 中导入
+strmbasd.lib(dllentry.obj) : warning LNK4049: 已导入本地定义的符号 __vsnwprintf
+strmbasd.lib(wxutil.obj) : warning LNK4049: 已导入本地定义的符号 __vsnwprintf
+strmbasd.lib(dllentry.obj) : warning LNK4217: 本地定义的符号 _swprintf_s 在函数 "private: static void __cdecl ATL::CTrace::TraceV(char const *,int,unsigned int,unsigned int,wchar_t const *)" (?TraceV@CTrace@ATL@@CAXPBDHIIPB_W@Z) 中导入
+strmbasd.lib(wxdebug.obj) : error LNK2019: 无法解析的外部符号 __imp___vsnprintf，该符号在函数 "long __stdcall StringVPrintfWorkerA(char *,unsigned int,unsigned int *,char const *,char *)" (?StringVPrintfWorkerA@@YGJPADIPAIPBD0@Z) 中被引用
+strmbasd.lib(dllentry.obj) : error LNK2019: 无法解析的外部符号 __imp___vsnwprintf_s，该符号在函数 "public: static void __cdecl ATL::CTrace::TraceV(char const *,int,unsigned int,unsigned int,wchar_t const *,char *)" (?TraceV@CTrace@ATL@@SAXPBDHIIPB_WPAD@Z) 中被引用
+.\Debug_Unicode/amcap.exe : fatal error LNK1120: 2 个无法解析的外部命令
